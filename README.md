@@ -15,7 +15,8 @@ Input (1, 28, 28)
 → Flatten → Linear(1600, 128) → ReLU → Linear(128, 10)
 
 Results
-Accuracy: Neural Network~97%  CNN~99%
+Accuracy: Neural Network=97%  
+          CNN=99%
 
 
 What I Learned
