@@ -21,11 +21,17 @@ Accuracy: Neural Network~97%  CNN~99%
 What I Learned
 
 How PyTorch's nn.Module works and why forward() is needed
+
 The training loop: zero_grad → forward → loss → backward → step
+
 Why zero_grad() is critical (PyTorch accumulates gradients)
+
 How convolutions shrink spatial dimensions: output = input - kernel + 1
+
 What MaxPooling does and why it helps generalization
+
 Difference between model.train() and model.eval()
+
 Why torch.no_grad() is used during inference
 
 
